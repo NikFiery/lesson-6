@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    position: relative;
     background: url(../img/background/sea.png) center center no-repeat;
     background-size: cover;
     display: flex;
@@ -21,11 +22,12 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
 }
 
 nav {
+    font-weight: 300;
     position: sticky;
+    top: 0;
     width: 100%;
     background: #4C97A2;
     display: flex;
@@ -35,7 +37,7 @@ nav {
 
 h1 {
     font-family: 'Cherry Swash', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: calc(15px + 2vw);
     color: #ffffff;
     margin-left: calc(1px + 3vw);
@@ -281,7 +283,7 @@ form {
 .bird__container {
     position: relative;
     margin-top: calc(1px + 2.65vw);
-    margin-left: calc(-1px + 0.65vw);
+    margin-left: calc(-4px + 0.9vw);
 }
 
 
@@ -308,6 +310,7 @@ form {
     border-radius: 16%;
     background: #FAFBF9;
 }
+
 
 /*footer*/
 footer {
