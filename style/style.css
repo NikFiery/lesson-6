@@ -159,6 +159,7 @@ h1>a {
 .images>img {
     margin: calc(5px + 3.8vw);
     width: calc(10px + 2.8vw);
+    height: calc(10px + 2.8vw);
 }
 
 /*dhavan*/
@@ -321,19 +322,3 @@ footer>p {
     color: #ffffff;
     margin: calc(1px + 1vw);
 }
-
-/*width: calc(8px + 0.8vw);
-    height: calc(4px + 0.47vw);
-    transform: rotate(45deg);
-    top: calc(2px + -0.6vw);
-    left: calc(6px + -0.3vw);
-    border-radius: 16%;
-    background: #FAFBF9;*/
-
-    /*width: calc(7px + 2vw);
-    height: calc(0px + 0.8vw);
-    transform: rotate(-45deg);
-    left: calc(2px + 0.5vw);
-    top: calc(-1px + -0.6vw);
-    border-radius: 16%;
-    background: #FAFBF9;*/
