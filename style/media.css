@@ -1,0 +1,5 @@
+@media (max-width: 512px), (max-height: 256px) {
+    .nav__links {
+        display: none;
+    }
+}
