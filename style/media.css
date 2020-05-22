@@ -2,4 +2,20 @@
     .nav__links {
         display: none;
     }
+
+    .burger__menu {
+        position: absolute;
+        top: calc(2px + 2vw);
+        right: calc(2px + 4vw);
+    }
+    
+    .burger__line {
+        width: calc(2px + 3vw);
+        height: calc(2px + 0.4vw);
+        background: #00D089;
+    }
+    
+    .burger__line:nth-child(2) {
+        margin: calc(1px + 0.3vw) 0;
+    }
 }
