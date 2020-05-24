@@ -55,7 +55,7 @@ h1>a {
 }
 
 .nav__link {
-    font-size: calc(5px + 1vw);
+    font-size: calc(10px + 0.5vw);
     color: #DCE3E4;
     text-decoration: none;
     margin: 0 calc(1px + 0.5vw);
@@ -79,7 +79,7 @@ h1>a {
 }
 
 .header__button {
-    font-size: calc(5px + 1.5vw);
+    font-size: calc(12px + 1vw);
     font-weight: 300;
     color: #E4E4E4;
     padding: 3px 1em;
@@ -132,6 +132,8 @@ h1>a {
 /*explore*/
 
 .container {
+    width: 63%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,16 +143,15 @@ h1>a {
 }
 
 .explore__title {
-    font-size: calc(10px + 1.4vw);
+    font-size: calc(16px + 1vw);
     font-weight: lighter;
     margin: 6rem 0 3rem 0;
     color: #4C505D;
 }
 
 .explore__text {
-    font-size: calc(1px + 1vw);
+    font-size: calc(10px + 0.2vw);
     color: #4C505D;
-
 }
 
 .images {
@@ -185,9 +186,9 @@ h1>a {
 
 .dhavan__name {
     color: #e4e4e4;
-    font-size: calc(5px + 1.3vw);
+    font-size: calc(12px + 0.7vw);
     font-weight: bold;
-
+    margin-bottom: calc(2px + 0.1vw);
 }
 
 .dhavan__title {
@@ -199,15 +200,15 @@ h1>a {
 }
 
 .dhavan__quotes {
-    width: calc(5px + 8vw);
+    width: calc(12px + 7.7vw);
 }
 
 .dhavan__text {
-    font-size: calc(3px + 1vw);
-    font-weight: lighter;
+    font-size: calc(11px + 0.34vw);
+    font-weight: 100;
     color: #ffffff;
     text-align: left;
-    margin: calc(1px + 2em) calc(1px + 2em);
+    margin: calc(1px + 2em) 0;
 }
 
 /*maps*/
@@ -238,10 +239,10 @@ h1>a {
 form {
     margin-top: calc(1px + 3vw);
     padding: calc(1px + 2vw) 0px;
+    font-size: calc(10px + 0.2vw);
 }
 
 .form__name {
-    font-size: calc(1px + 0.9vw);
     width: calc(8px + 21vw);
     height: calc(7px + 2vw);
     padding-left: calc(2px + 0.6vw);
@@ -250,7 +251,6 @@ form {
 }
 
 .form__email {
-    font-size: calc(1px + 0.9vw);
     width: calc(8px + 21vw);
     height: calc(7px + 2vw);
     padding-left: calc(2px + 0.6vw);
@@ -260,7 +260,6 @@ form {
 }
 
 .form__message {
-    font-size: calc(1px + 0.9vw);
     width: calc(8px + 21vw);
     height: calc(7px + 6vw);
     padding-left: calc(2px + 0.6vw);
@@ -273,8 +272,8 @@ form {
 }
 
 .maps__bird {
-    width: calc(2px + 4vw);
-    height: calc(2px + 4vw);
+    width: 17%;
+    height: 17%;
     background: #00D089;
     border-radius: 50%;
 
@@ -282,8 +281,8 @@ form {
 
 .bird__container {
     position: relative;
-    margin-top: calc(1px + 2.65vw);
-    margin-left: calc(-4px + 0.9vw);
+    margin-top: 61%;
+    margin-left: 21%;
 }
 
 
@@ -292,25 +291,26 @@ form {
 }
 
 #check-part-1 {
-    width: calc(8px + 0.8vw);
-    height: calc(4px + 0.47vw);
+    width: 40%;
+    height: 10px;
     transform: rotate(45deg);
-    top: calc(2px + -0.6vw);
-    left: calc(6px + -0.3vw);
+    top: -4px;
+    left: 0;
     border-radius: 16%;
     background: #FAFBF9;
+    position: absolute;
 }
 
 #check-part-2 {
-    width: calc(7px + 2vw);
-    height: calc(0px + 0.8vw);
+    width: 60%;
+    height: 10px;
     transform: rotate(-45deg);
-    left: calc(2px + 0.5vw);
-    top: calc(-1px + -0.6vw);
+    left: 8px;
+    top: -7px;
     border-radius: 16%;
     background: #FAFBF9;
+    position: absolute;
 }
-
 
 /*footer*/
 footer {
@@ -322,7 +322,7 @@ footer {
 
 footer>p {
     font-family: 'Helvetica', sans-serif;
-    font-size: calc(1px + 0.9vw);
+    font-size: calc(10px + 0.2vw);
     color: #ffffff;
     margin: calc(1px + 1vw);
 }
