@@ -148,6 +148,7 @@
 
     .dhavan__text {
         font-size: calc(11px + 2.5vw);
+        line-height: normal;
     }
 
     .dhavan__quotes {
