@@ -28,11 +28,12 @@ header {
     text-align: center;
     padding-bottom: 10vh;
     position: relative;
+    padding-top: 19vh;
 }
 
 nav {
     font-weight: 300;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     background: #4C97A2;
