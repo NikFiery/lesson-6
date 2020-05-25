@@ -13,6 +13,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
 header {
     position: relative;
     background: url(../img/background/sea.png) center center no-repeat;
@@ -22,6 +23,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 nav {
@@ -74,7 +76,7 @@ h1>a {
 .header__title {
     font-size: calc(15px + 2vw);
     color: #E4E4E4;
-    margin-top: 2em;
+    margin-top: 3.5em;
 
 }
 
@@ -131,8 +133,12 @@ h1>a {
 
 /*explore*/
 
+.explore {
+    padding: 8vh 0;
+}
+
 .container {
-    width: 63%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -145,7 +151,7 @@ h1>a {
 .explore__title {
     font-size: calc(16px + 1vw);
     font-weight: lighter;
-    margin: 6rem 0 3rem 0;
+    margin: 3rem 0 3rem 0;
     color: #4C505D;
 }
 
@@ -168,6 +174,7 @@ h1>a {
 /*dhavan*/
 .dhavan {
     background: #00D089;
+    padding: 8vh 0;
 }
 
 .dhavan__logo {
@@ -250,6 +257,10 @@ form {
     border: 1px solid #d4d4d4;
 }
 
+.form__name::placeholder {
+    opacity: 0.5;
+}
+
 .form__email {
     width: calc(8px + 21vw);
     height: calc(7px + 2vw);
@@ -257,6 +268,10 @@ form {
     outline: none;
     margin: calc(2px + 1vw) 0;
     border: 1px solid #d4d4d4;
+}
+
+.form__email::placeholder {
+    opacity: 0.5;
 }
 
 .form__message {
@@ -269,6 +284,10 @@ form {
     outline: none;
     border: 1px solid #d4d4d4;
 
+}
+
+.form__message::placeholder {
+    opacity: 0.5;
 }
 
 .maps__bird {
@@ -313,6 +332,7 @@ form {
 }
 
 /*footer*/
+
 footer {
     display: flex;
     justify-content: center;
@@ -320,7 +340,7 @@ footer {
     background: #00D089;
 }
 
-footer>p {
+footer>.container>p {
     font-family: 'Helvetica', sans-serif;
     font-size: calc(10px + 0.2vw);
     color: #ffffff;
