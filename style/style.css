@@ -15,7 +15,6 @@ body {
 
 
 header {
-    position: relative;
     background: url(../img/background/sea.png) center center no-repeat;
     background-size: cover;
     display: flex;
@@ -24,6 +23,7 @@ header {
     align-items: center;
     text-align: center;
     padding-bottom: 10vh;
+    position: relative;
 }
 
 nav {
@@ -35,6 +35,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 5;
 }
 
 h1 {
@@ -76,7 +77,7 @@ h1>a {
 .header__title {
     font-size: calc(15px + 2vw);
     color: #E4E4E4;
-    margin-top: 3.5em;
+    margin-top: 15vh;
 
 }
 
@@ -216,6 +217,7 @@ h1>a {
     color: #ffffff;
     text-align: left;
     margin: calc(1px + 2em) 0;
+    opacity: 0.86;
 }
 
 /*maps*/
@@ -225,6 +227,7 @@ h1>a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2vh 0;
 
 }
 
@@ -338,6 +341,7 @@ footer {
     justify-content: center;
     align-items: center;
     background: #00D089;
+    padding: 1vh 0;
 }
 
 footer>.container>p {
