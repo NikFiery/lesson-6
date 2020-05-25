@@ -58,6 +58,11 @@
 
 /*phone*/
 @media (max-width: 414px) and (max-height: 812px) {
+
+    header {
+        padding-top: 3vh;
+    }
+
     .nav__links {
         display: none;
     }
